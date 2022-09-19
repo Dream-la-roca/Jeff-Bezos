@@ -1,0 +1,81 @@
+body{
+    text-align:center;
+    margin:0;
+    padding-top: 550px; 
+}
+.perfil{
+    width: 30%;
+    border-radius: 50%;
+}
+#bienvenido{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    display: table;
+    background: linear-gradient(rgb(0, 0, 0)30%,rgb(18, 255, 1));
+}
+.parallax-inner{
+    vertical-align: middle;
+    display: table-cell;
+}
+#nombre{
+    font-size: 50px;
+    font-family: cursive;
+    font-family: 'Saira Stencil One', cursive;
+}
+.linea{
+    height: 10px;
+    width: 60px;
+    background-color: greenyellow;
+    margin: 10px auto;
+}
+#bio{
+    padding: 35%;
+    font-family: 'Hanalei', cursive;
+}
+h1{
+    font-size: 55px;
+    font-weight: 900;
+    font-family: monospace;
+}
+p{
+    font-size: 40px;
+}
+.menu{
+    position: fixed;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Rampart One', cursive
+}
+.enlace{
+    display: inline;
+    padding: 30px;
+    font-size: 2em;
+}
+.enlace a{
+    text-decoration: none;
+    color: rgb(18, 255, 1);
+}
+#bio h1{
+    font-family: 'Kumar One Outline', cursive;
+}
+#videos h1{
+    font-family: 'Nabla', cursive;
+}
+iframe{
+    width: 50%;
+    height: 600px;
+}
+#trabajos img{
+    width: 20%;
+    padding: 50px;
+}
+#trabajos h1{
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 100px;
+}
